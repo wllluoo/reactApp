@@ -1,4 +1,5 @@
 const path = require('path');
+const rootPath = path.join(__dirname, '../');
 
 module.exports = {
   devtool: 'source-map',
@@ -13,6 +14,9 @@ module.exports = {
     extensions: [
         '.js', '.jsx',
     ],
+    alias: {
+      utils: path.join(rootPath, 'src/utils'),
+    }
   },
   module: {
     rules:[
