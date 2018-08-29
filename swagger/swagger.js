@@ -2,7 +2,7 @@
  * @Author: wllluoo.zhongpeipei 
  * @Date: 2018-08-28 15:55:56 
  * @Last Modified by: wllluoo.zhongpeipei
- * @Last Modified time: 2018-08-28 16:38:42
+ * @Last Modified time: 2018-08-29 13:37:26
  */
 
 const Swagger = require('swagger-client');
@@ -10,7 +10,7 @@ const Handlebars = require('handlebars');
 const mkdirp = require('mkdirp');
 const fs = require('fs');
 const getDirName = require('path').dirname;
-const url = 'http://192.168.80.69:8080/v2/api-docs';
+
 
 const source = require('./template');
 
